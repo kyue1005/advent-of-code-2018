@@ -17,7 +17,7 @@ func readFileToArray(fileName string) ([]string, error) {
 }
 
 func main() {
-	inputData, err := readFileToArray("day2_2/input.txt")
+	inputData, err := readFileToArray("input/day2.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

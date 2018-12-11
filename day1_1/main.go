@@ -11,7 +11,7 @@ import (
 func main() {
 	sum := 0
 
-	file, err := os.Open("day1_1/input.txt")
+	file, err := os.Open("input/day1.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

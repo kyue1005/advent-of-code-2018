@@ -20,7 +20,7 @@ func main() {
 	count2 := 0
 	count3 := 0
 
-	inputData, err := readFileToArray("day2_1/input.txt")
+	inputData, err := readFileToArray("input/day2.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
